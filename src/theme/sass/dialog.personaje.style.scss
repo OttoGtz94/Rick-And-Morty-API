@@ -1,0 +1,47 @@
+.MuiDialog-container {
+	.MuiPaper-root {
+		max-width: 300px;
+		.headerDialog {
+			padding: 0px;
+			.vivo {
+				color: #90bf49;
+			}
+			.muerto {
+				color: #b10f00;
+			}
+
+			.desconocido {
+				color: #eee236;
+			}
+		}
+		.MuiDialogContent-root {
+			padding: 0px;
+			.containerInfo {
+				position: relative;
+				.symbols {
+					background-color: #121212a9;
+					position: absolute;
+					top: -307px;
+					border-bottom-right-radius: 15px;
+					.symbol {
+						font-size: 25px;
+						margin: 3px 5px;
+						color: #b7d7ec;
+					}
+				}
+				p {
+					margin: 0px;
+					padding: 3px 5px;
+				}
+				.episodios {
+					position: absolute;
+					top: -307px;
+					right: 0px;
+					color: #d8d8d8;
+					background-color: #129aa9;
+					border-bottom-left-radius: 15px;
+				}
+			}
+		}
+	}
+}
